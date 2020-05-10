@@ -1,7 +1,7 @@
 class Cart
   attr_reader :name, :weight, :height
 
-  ITEMS = []
+  @@cart = []
 
   def initialize(params)
     @name = args[:name]
