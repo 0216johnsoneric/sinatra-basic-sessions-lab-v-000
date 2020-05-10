@@ -3,7 +3,7 @@ class Cart
 
   ITEMS = []
 
-  def initialize(args)
+  def initialize(params)
     @name = args[:name]
     @weight = args[:weight]
     @height = args[:height]
