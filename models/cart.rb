@@ -11,6 +11,6 @@ class Cart
   end
 
   def self.all
-    PIRATES
+    ITEMS
   end
 end
