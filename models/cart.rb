@@ -11,6 +11,6 @@ class Cart
   end
 
   def self.all
-    ITEMS
+    @@cart
   end
 end
