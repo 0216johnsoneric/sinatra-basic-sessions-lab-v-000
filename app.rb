@@ -11,7 +11,7 @@ class App < Sinatra::Base
       @session = session
     end
 
-  get '/' do
+  get '/items' do
     erb :index
   end
 
