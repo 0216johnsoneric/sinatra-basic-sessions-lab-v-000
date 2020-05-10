@@ -16,4 +16,6 @@ class App < Sinatra::Base
   end
 
   get '/items'
+    erb :items
+  end
 end
