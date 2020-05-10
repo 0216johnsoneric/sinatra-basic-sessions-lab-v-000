@@ -7,7 +7,7 @@ class Cart
     @name = args[:name]
     @weight = args[:weight]
     @height = args[:height]
-    ITEMS << self
+    @@cart << self
   end
 
   def self.all
